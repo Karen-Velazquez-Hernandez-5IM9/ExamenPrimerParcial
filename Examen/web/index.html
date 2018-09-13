@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Examen uwur</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div>
+            <center>
+            <br><br><hr>
+            <h1>Convertidor de Pesos</h1>
+            <form method="post" action="ServletMoneda">
+                <h2>Introduzca la cantidad en pesos:</h2>
+                <input type="number" name="Peso" placeholder="Introduzca un valor">
+                <br><br><br>
+                 <select name="Moneda" class="Moneda">
+                    <option value="Nulo">Seleccione una moneda</option>
+                    <option value="Yen">Yen japonés (JPY)</option>
+                    <option value="Dolar">Dólar estadounidense (USD)</option>
+                 </select>
+                <br><br>
+                <input type="submit" value="Convertir" name="Convertir">
+            </form>
+            </center>
+        </div>
+    </body>
+</html>
